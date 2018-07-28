@@ -21,3 +21,8 @@ html, body {
 #texteditor:focus {
   outline: none;
 }
+
+button {
+  font-size: 20px;
+  padding: 20px;
+}
