@@ -21,4 +21,5 @@ And all this goodness is preferrably presented to you in the form of a modal dia
 - An online HTML/Javascript editor that works cross browser, cross platform
 - Connects to your dropbox. Your data is **your data**. You can find it on your hard drive.
 - No modal dialogs. Not now. Not ever.
+- Free to use, source available for you to see (or fork) here at github.
 - Works a bit like a journal. Everything you write during the 4th of july 2018 will be **automatically** saved in a text file called 2018-07-04.txt
