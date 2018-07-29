@@ -2,6 +2,8 @@
 
 An online [text editor](https://madeinouweland.github.io/text-writer) that lets you write plain text and automatically saves as a text file to your dropbox
 
+<img src="https://github.com/madeinouweland/text-writer/blob/master/images/preview.png" width="800">
+
 ## Why another text editor?
 
 Are you searching for a real pen & paper alternative? Would you like to be able to write whatever is in your head **RIGHT NOW**?
