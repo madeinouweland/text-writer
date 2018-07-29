@@ -14,8 +14,8 @@
     <p>
       Text-writer uses your dropbox to store your text files. By clicking 'Request Access', you will be redirected to the dropbox website where you can authenticate Text-writer. Text-writer only uses a specific folder called text-writer and has no access to everything else.
     </p>
+    <button onclick="requestAccess();">Request Access</button>
   </div>
-  <button onclick="requestAccess();">Request Access</button>
   <script>
     function requestAccess() {
       var dbx = new Dropbox.Dropbox({ clientId: 'uivc0t7nsohxnoh' });
