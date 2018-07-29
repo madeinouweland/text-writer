@@ -9,17 +9,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropbox.js/4.0.9/Dropbox-sdk.min.js"></script>
   <script src="./index.js"></script>
+  <script src="./saver.js"></script>
 </head>
 <body>
   <textarea
     spellcheck="false"
-    id="texteditor">Hello, this is a clean text editor. Greetings from the Mueggelsee.</textarea>
+    id="texteditor">Hello, this is a clean text editor.
+Greetings from the Müggelsee.</textarea>
   <script>
     var dbx = getDropbox();
+    var textEditor = document.getElementById('texteditor')
+
+    textEditor.addEventListener('keyup',onKeyup);
+
+    function onKeyup() {
+      console.log(textEditor.value);
+      save(dbx, textEditor.value);
+    }
 
     window.onload = function() {
-      var text = document.getElementById('texteditor')
-      text.focus();
+      textEditor.focus();
     }
   </script>
 </body>

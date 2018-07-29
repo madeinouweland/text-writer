@@ -6,7 +6,8 @@ An online [text editor](https://madeinouweland.github.io/text-writer) that lets 
 
 ## Why another text editor?
 
-Are you searching for a real pen & paper alternative? Would you like to be able to write whatever is in your head **RIGHT NOW**?
+Are you searching for a real pen & paper alternative?
+Would you like to be able to write whatever is in your head **RIGHT NOW**?
 
 Sometimes it feel that apps that claim to be productivity tools, are exactly **not** that. At crucial moments (like starting or closing the app) they bother you with questions like:
 
@@ -16,7 +17,7 @@ Sometimes it feel that apps that claim to be productivity tools, are exactly **n
 
 And all this goodness is preferrably presented to you in the form of a modal dialog.
 
-**BOOM!**. There goes the productivity!
+**BOOM!** There goes the productivity!
 
 ## So my promise to you:
 
@@ -24,4 +25,8 @@ And all this goodness is preferrably presented to you in the form of a modal dia
 - Connects to your dropbox. Your data is **your data**. You can find it on your hard drive.
 - No modal dialogs. Not now. Not ever.
 - Free to use, source available for you to see (or fork) here at github.
-- Works a bit like a journal. Everything you write during the 4th of july 2018 will be **automatically** saved in a text file called 2018-07-04.txt
+- Works a bit like a journal. Everything you write during the 4th of july in 2018 will be **automatically** saved in a text file called 2018-07-04.txt
+
+## Sounds good?
+
+[Go!](https://madeinouweland.github.io/text-writer/)
