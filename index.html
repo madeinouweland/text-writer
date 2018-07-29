@@ -14,6 +14,11 @@
   <textarea id="texteditor">Hello, this is a clean text editor. Greetings from the Mueggelsee.</textarea>
   <script>
     var dbx = getDropbox();
+
+    window.onload = function() {
+      var text = document.getElementById('texteditor')
+      text.focus();
+    }
   </script>
 </body>
 </html>
