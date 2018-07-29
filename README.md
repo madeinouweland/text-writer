@@ -1,6 +1,6 @@
 # text-writer
 
-An online text editor that lets you write plain text and automatically saves as a text file to your dropbox
+An online [text editor](https://madeinouweland.github.io/text-writer) that lets you write plain text and automatically saves as a text file to your dropbox
 
 ## Why another text editor?
 
@@ -22,7 +22,3 @@ And all this goodness is preferrably presented to you in the form of a modal dia
 - Connects to your dropbox. Your data is **your data**. You can find it on your hard drive.
 - No modal dialogs. Not now. Not ever.
 - Works a bit like a journal. Everything you write during the 4th of july 2018 will be **automatically** saved in a text file called 2018-07-04.txt
-
-
-
-
