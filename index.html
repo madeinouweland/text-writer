@@ -8,7 +8,7 @@
   <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@7/dist/polyfill.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/dropbox.js/4.0.9/Dropbox-sdk.min.js"></script>
-  <script src="./index.js"></script>
+  <script src="./localstorage.js"></script>
   <script src="./saver.js"></script>
 </head>
 <body>
@@ -17,19 +17,22 @@
     id="texteditor">Hello, this is a clean text editor.
 Greetings from the Müggelsee.</textarea>
   <script>
-    var dbx = getDropbox();
     var textEditor = document.getElementById('texteditor')
 
     textEditor.addEventListener('keyup',onKeyup);
 
-    function onKeyup() {
-      console.log(textEditor.value);
-      save(dbx, textEditor.value);
+    async function onKeyup() {
+        var resulet = await saveText(textEditor.value);
+        console.log(result);
     }
 
-    window.onload = function() {
+    window.onload = async () => {
       textEditor.focus();
+
+      textEditor.value = await loadText(1);
     }
+
+
   </script>
 </body>
 </html>
