@@ -23,9 +23,10 @@ html, body {
   padding: 20px 200px 20px 200px;
 }
 
+#texteditor:focus,
 @media only screen and (max-width: 800px) {
   #texteditor {
-    font-size: 14px;
+    font-size: 16px;
     padding: 20px 20px 20px 20px;
   }
 }
