@@ -1,6 +1,6 @@
 # text-writer
 
-An online [text editor](https://madeinouweland.github.io/text-writer) that lets you write plain text and automatically saves as a text file to your dropbox
+An online [text editor](https://madeinouweland.github.io/text-writer) that lets you write plain text and automatically save to indexDB
 
 <img src="https://github.com/madeinouweland/text-writer/blob/master/images/preview.png" width="800">
 
@@ -22,10 +22,9 @@ And all this goodness is preferrably presented to you in the form of a modal dia
 ## So my promise to you:
 
 - An online HTML/Javascript editor that works cross browser, cross platform
-- Connects to your dropbox. Your data is **your data**. You can find it on your hard drive.
+- Connects to your dropbox (FUTURE). Your data is **your data**. You can find it on your hard drive.
 - No modal dialogs. Not now. Not ever.
 - Free to use, source available for you to see (or fork) here at github.
-- Works a bit like a journal. Everything you write during the 4th of july in 2018 will be **automatically** saved in a text file called 2018-07-04.txt
 
 ## Sounds good?
 
