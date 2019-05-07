@@ -1,6 +1,6 @@
 # text-writer
 
-An online [text editor](https://madeinouweland.github.io/text-writer) that lets you write plain text and automatically save to indexDB
+An online text editor that lets you write plain text and automatically save to indexDB
 
 <img src="https://github.com/madeinouweland/text-writer/blob/master/images/preview.png" width="800">
 
