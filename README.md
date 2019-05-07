@@ -24,7 +24,3 @@ And all this goodness is preferably presented to you in the form of a modal dial
 - An online HTML/Javascript editor that works cross browser, cross platform
 - No modal dialogs. Not now. Not ever.
 - Free to use, source available for you to see (or fork) here at github.
-
-## Sounds good?
-
-[Go!](https://madeinouweland.github.io/text-writer/)
