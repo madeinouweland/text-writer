@@ -15,14 +15,13 @@ Sometimes it feel that apps that claim to be productivity tools, are exactly **n
 - Would you like to save your data? (Yes, please)
 - Do you like our app?
 
-And all this goodness is preferrably presented to you in the form of a modal dialog.
+And all this goodness is preferably presented to you in the form of a modal dialog.
 
 **BOOM!** There goes the productivity!
 
 ## So my promise to you:
 
 - An online HTML/Javascript editor that works cross browser, cross platform
-- Connects to your dropbox (FUTURE). Your data is **your data**. You can find it on your hard drive.
 - No modal dialogs. Not now. Not ever.
 - Free to use, source available for you to see (or fork) here at github.
 
